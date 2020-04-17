@@ -4,7 +4,7 @@ CONTACT_CHOICES = (('FACEBOOK', 'Facebook'),
                    ('PHONE', 'Phone'),
                    ('EMAIL', 'Email'),)
 class Contact(models.Model):
-    choice = models.CharField(max_length=50, choices=CONTACT_CHOICES, default="Phone", unique=True, )
+    choice = models.CharField(max_length=50, choices=CONTACT_CHOICES, default="PHONE", unique=True, )
     def __str__(self):
         return self.choice
 
@@ -18,8 +18,8 @@ class Course(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(max_length=500)
     logo = models.CharField(max_length=100)
-    contact = models.ForeignKey(Contact, related_name="contact", on_delete=models.CASCADE, null=False,to_field="choice",)
-    category = models.ForeignKey(Category, related_name="contact", on_delete=models.CASCADE, null=False, to_field="name",)
+    contact = models.ForeignKey(Contact, related_name="contact", on_delete=models.CASCADE, null=False, to_field="choice",)
+    category = models.ForeignKey(Category, related_name="category", on_delete=models.CASCADE, null=False, to_field="name",)
 
 
     def __str__(self):

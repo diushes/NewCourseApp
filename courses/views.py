@@ -11,7 +11,6 @@ class CourseListView(ListCreateAPIView):
     def post(self, request, *args, **kwargs):
         return self.create(request, *args, **kwargs)
 
-
 class SingleCourseView(RetrieveDestroyAPIView):
     model = Course
     serializer_class = CourseSerializer

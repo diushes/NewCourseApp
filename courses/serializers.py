@@ -1,4 +1,4 @@
-from .models import Course,Branch
+from .models import Course, Branch
 from rest_framework import serializers
 
 class BranchSerializer(serializers.ModelSerializer):
