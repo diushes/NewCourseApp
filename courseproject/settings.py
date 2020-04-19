@@ -24,7 +24,7 @@ SECRET_KEY = 'x2gsf8_ely&ia(s+^usv&zr^r_qv539)ja*t0d)*5q7bptu1(e'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 # Application definition
