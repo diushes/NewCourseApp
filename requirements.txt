@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-
 django == 3.0.5
 djangorestframework == 3.10.3
 drf-yasg==1.17.0
-=======
-django
-gunicorn
-django-heroku
-requests
->>>>>>> 2dbfc1f58e6ef3299ecc7af194188553156a8240
+
