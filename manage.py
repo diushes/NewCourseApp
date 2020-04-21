@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+<<<<<<< HEAD
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
@@ -19,3 +20,14 @@ def main():
 
 if __name__ == '__main__':
     main()
+=======
+import os
+import sys
+
+if __name__ == "__main__":
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gettingstarted.settings")
+
+    from django.core.management import execute_from_command_line
+
+    execute_from_command_line(sys.argv)
+>>>>>>> 2dbfc1f58e6ef3299ecc7af194188553156a8240

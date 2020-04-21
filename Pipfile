@@ -6,9 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+<<<<<<< HEAD
 djangorestframework = "==3.10.3"
 drf-yasg = "==1.17.0"
 Django = "==2.2.6"
+=======
+requests = "*"
+>>>>>>> 2dbfc1f58e6ef3299ecc7af194188553156a8240
 
 [requires]
 python_version = "3.8"

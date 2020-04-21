@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -133,3 +134,11 @@ dmypy.json
 
 #Database
 *.sqlite3
+=======
+venv
+*.pyc
+staticfiles
+.env
+db.sqlite3
+getting-started/*
+>>>>>>> 2dbfc1f58e6ef3299ecc7af194188553156a8240
